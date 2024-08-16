@@ -33,13 +33,13 @@ class Go < Formula
     # Don't update this unless this version cannot bootstrap the new version.
     resource "gobootstrap" do
       checksums = {
-        "darwin-arm64" => "b770812aef17d7b2ea406588e2b97689e9557aac7e646fe76218b216e2c51406",
-        "darwin-amd64" => "ffd070acf59f054e8691b838f274d540572db0bd09654af851e4e76ab88403dc",
-        "linux-arm64"  => "62788056693009bcf7020eedc778cdd1781941c6145eab7688bd087bce0f8659",
-        "linux-amd64"  => "905a297f19ead44780548933e0ff1a1b86e8327bb459e92f9c0012569f76f5e3",
+        "darwin-arm64" => "6da3f76164b215053daf730a9b8f1d673dbbaa4c61031374a6744b75cb728641",
+        "darwin-amd64" => "754363489e2244e72cb49b4ec6ddfd6a2c60b0700f8c4876e11befb1913b11c5",
+        "linux-arm64"  => "2096507509a98782850d1f0669786c09727053e9fe3c92b03c0d96f48700282b",
+        "linux-amd64"  => "ff445e48af27f93f66bd949ae060d97991c83e11289009d311f25426258f9c44",
       }
   
-      version "1.23.0"
+      version "1.20.14"
   
       on_arm do
         on_macos do
